@@ -29,3 +29,7 @@ output "device_details" {
   description = "Raw device details JSON blob"
   value       = var.device_details
 }
+
+output "namespace_quota_size" {
+  value = var.namespace_quota_size
+}
